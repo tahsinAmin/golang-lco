@@ -49,3 +49,7 @@ byte        alias for uint8
 rune        alias for int32
 
 Source: https://go.dev/ref/spec#Lexical_elements
+
+## Setting GOOS
+$env:GOOS = "linux"
+go build
